@@ -11,8 +11,8 @@ app = Flask(__name__)
 S3_BUCKET = "random-files-storage"
 AWS_REGION = "ap-south-1"
 LANGUAGE_CODE = "en-US"
-AWS_ACCESS_KEY_ID = ""
-AWS_SECRET_ACCESS_KEY = ""
+AWS_ACCESS_KEY_ID = "test"
+AWS_SECRET_ACCESS_KEY = "test"
 
 s3_client = boto3.client(
     's3',
